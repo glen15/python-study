@@ -8,3 +8,6 @@
 # python manage.py runserver : django 어드민 주소 나옴 http://127.0.0.1:8000/admin
 
 # python manage.py migrate
+python manage.py runserver 초기 오류 사라짐
+
+# python manage.py createsuperuser
