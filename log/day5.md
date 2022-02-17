@@ -25,4 +25,14 @@ models.py에서 모델생성
 config settings에서
 
 PROJECT_APPS 만들어서
-거기에 users 연결 apps.userConfig
+거기에 users 연결 apps.userConfig  
+
+## 어드민에 커스텀 유저 생성
+users/admin.py에 작성
+
+
+모델변경시  
+python manage.py makemigration  
+python manage.py migrate
+
+이러면 데이터베이스에 컬럼넣고 적용한거지  
